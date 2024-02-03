@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #352f5b;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 400px;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+span {
+    display: inline-block;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 0;
+    padding: 18px 15px;
+    font-size: 20px;
+    background: #423a6f;
+}
+
+input {
+    background: rgba(0,0,0,0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+input {
+    display: inline-block;
+    background: rgba(0,0,0,0.2);
+    border: none;
+    padding: 10px 5px;
+    color: white;
+    font-size: 19px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.delete:hover {
+    color: rgb(210, 207, 207);
+}
+
+.fa-plus:hover {
+    color: rgb(210, 207, 207);
+}
+
+.new-todo-add {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.todo-input {
+    width: 90%;
+}
+
+.todo-add {
+    width: 15%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+form {
+    margin-bottom: 30px;
+}
